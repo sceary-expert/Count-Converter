@@ -1,0 +1,36 @@
+html, body {
+    height: 110%;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.button {
+    position: absolute;
+    
+    background-color:#0a0a23;
+    color: #fff;
+    border:none;
+    border-radius:10px;
+  }
+  
+@media only screen and (max-width: 1200px){
+    /*Tablets [601px -> 1200px]*/
+    .button{
+        margin: 5px 55px;
+    }
+
+}
+@media only screen and (max-width: 600px){
+	/*Big smartphones [426px -> 600px]*/
+}
+@media only screen and (max-width: 425px){
+	/*Small smartphones [325px -> 425px]*/
+}
