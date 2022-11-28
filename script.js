@@ -3,8 +3,11 @@ function myFunction() {
     console.log(inputNumber);
     // whatever you want to do with it
     //location.href = "landing-page.html";
-    let fromCount = document.getElementById("fromValue").value;
-    let toCount = document.getElementById("toValue").value;
+    let FromCount = document.getElementById("fromValue").value;
+    let ToCount = document.getElementById("toValue").value;
+  
+    let fromCount = FromCount.toLowerCase();
+    let toCount = ToCount.toLowerCase();
     console.log(fromCount);
     console.log(toCount);
     if(fromCount == "tex")
